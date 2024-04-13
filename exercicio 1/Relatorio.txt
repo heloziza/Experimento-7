@@ -1,0 +1,24 @@
+Linguagem de Programação Escolhida:
+Para implementar os experimentos com RabbitMQ, foi escolhida a linguagem de programação JavaScript com o ambiente Node.js, que permitiu uma boa integração por meio da biblioteca amqplib e possibilitou que eu me aprimorasse nessa linguagem.
+
+
+Código Desenvolvido:
+Foram desenvolvidos seis experimentos com RabbitMQ, cada um abordando um conceito diferente:
+Hello World: Envio e recebimento de uma mensagem simples "Hello World!".
+Work Queues: Implementação de filas de trabalho para distribuir tarefas entre vários trabalhadores.
+Publish/Subscribe: Demonstração de um sistema de publicação/subscrição para enviar mensagens para múltiplos consumidores.
+Routing: Utilização de roteamento para direcionar mensagens para consumidores específicos com base em chaves de roteamento.
+Topics: Implementação de tópicos para direcionar mensagens com base em padrões de roteamento flexíveis.
+RPC: Desenvolvimento de um sistema de Chamada de Procedimento Remoto (RPC) para permitir que os clientes solicitem a execução de procedimentos em um servidor e recebam os resultados.
+
+
+Mensagens Trocadas:
+As mensagens trocadas variam de acordo com cada experimento. Nos experimentos de Hello World, Work Queues e Publish/Subscribe, as mensagens consistem principalmente em strings simples. Nos experimentos de Routing, Topics e RPC, as mensagens podem incluir chaves de roteamento, argumentos de procedimento e resultados.
+
+
+Análise dos Resultados Obtidos:
+Os experimentos foram bem-sucedidos em demonstrar os diferentes conceitos e casos de uso do RabbitMQ. Os resultados obtidos mostram a utilidade do RabbitMQ na construção de sistemas distribuídos e assíncronos.
+
+
+Dificuldades Encontradas:
+Algumas dificuldades encontradas durante a implementação dos experimentos incluíram entender os diferentes padrões de comunicação oferecidos pelo RabbitMQ e como configurá-los corretamente, desde o início pareceu ser algo bem complexo.
